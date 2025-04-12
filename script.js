@@ -55,7 +55,7 @@ Quagga.onDetected(function (result) {
     alert("Detected barcode: " + result.codeResult.code);
 });
 
-
+//josue was here
 
 
 
