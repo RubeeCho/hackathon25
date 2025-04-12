@@ -1,0 +1,5 @@
+/*video resolution*/
+#camera video{
+    width:100%;
+    max-width: 640px;
+}

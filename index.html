@@ -19,11 +19,15 @@
     <div id="result">No barcode detected</div>
 
 
+    <!--This is where the live video stream will be displayed-->
+    <div id="camera"></div>
 
-
-
+    <!--QuaggaJS is a barcode scanner library written in JavaScript that 
+    runs entirely in the browser. It's designed to help web applications 
+    scan and decode various types of barcodes from images or directly 
+    from a device's camera in real-time.-->
     <!-- Include QuaggaJS from CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2/dist/quagga.min.js"></script>
     <!--Include JS file-->
     <script src="script.js"></script>
 </main>
